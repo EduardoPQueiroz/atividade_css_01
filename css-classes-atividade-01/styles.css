@@ -1,0 +1,54 @@
+
+/* ATIVIDADE */
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: solid 1px;
+    background-color: #00c050; 
+    color: #acffc5;
+}
+
+.cabecalho, .conteudo{
+    border: solid 1px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #8300c0;
+    display: flex;
+    align-items: center;
+}
+
+.mainTitle{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
+.conteudo{
+    color: #15001f;
+}
+
+/* -- Desafio */
+.conteudo > p{
+    color: #E4005A;
+    font-size: 42px;
+}
+
+/* Desafio Plus */
+.conteudo > .thirdChild{
+    color: #33004b;
+    text-decoration: underline;
+}
+
+/* Desafio plus 3 */
+@media screen and (max-width: 480px) {
+  .container {
+    background-color: #ADD8E6;
+  }
+}
+
